@@ -1,0 +1,218 @@
+{
+    "menu": [
+        {
+            "id": 1,
+            "slug": "products",
+            "title": "Products"
+        },
+        {
+            "id": 2,
+            "slug": "services",
+            "title": "Services"
+        }
+    ],
+
+    "pages": [
+        {
+            "id": 1,
+            "slug": "homepage",
+            "title": "Homepage",
+            "blocks": [
+                {
+                    "name": "b-hero-1",
+                    "image": {
+                        "url": "https://images.unsplash.com/photo-1554559380-823246762a89?auto=format&w=1400&q=80",
+                        "alt": "",
+                        "caption": ""
+                    },
+                    "pre_title": "Pre-title",
+                    "title": "Json ipsum dolor sit amet consectetur adipisicing elit",
+                    "sub_title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                    "link": {
+                        "label": "Visit Blog",
+                        "url": "/blog",
+                        "target": ""
+                    }
+                },
+                {
+                    "name": "b-grid-1",
+                    "columns": [
+                        {
+                            "width": "3",
+                            "alignment": "left",
+                            "components": [
+                                {
+                                    "name": "c-richtext-1",
+                                    "content": "<h2>Foo</h2>\n<p>Quia et suscipit suscipit recusandae consequuntur expedita autem.</p>\n"
+                                }
+                            ]
+                        },
+                        {
+                            "width": "6",
+                            "alignment": "left",
+                            "components": [
+                                {
+                                    "name": "c-richtext-1",
+                                    "content": "<h2>Bar</h2>\n<p>Quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto.</p>\n"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "b-feature-1",
+                    "image": {
+                        "url": "https://images.unsplash.com/photo-1554559380-823246762a89?auto=format&w=800&q=80",
+                        "alt": "",
+                        "caption": ""
+                    },
+                    "flip_horizontal": false,
+                    "pre_title": "Pre-title",
+                    "title": "Lorem ipsum dolor sit.",
+                    "sub_title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, rem neque doloribus impedit explicabo minus laborum.",
+                    "link": {
+                        "label": "View Products",
+                        "url": "/products",
+                        "target": ""
+                    }
+                },
+                {
+                    "name": "b-feature-1",
+                    "image": {
+                        "url": "https://images.unsplash.com/photo-1554559380-823246762a89?auto=format&w=800&q=80",
+                        "alt": "",
+                        "caption": ""
+                    },
+                    "flip_horizontal": true,
+                    "pre_title": "Pre-title",
+                    "title": "Lorem ipsum dolor sit.",
+                    "sub_title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, rem neque doloribus impedit explicabo minus laborum.",
+                    "link": {
+                        "label": "View Services",
+                        "url": "/services",
+                        "target": ""
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "slug": "products",
+            "title": "Products",
+            "blocks": [
+                {
+                    "name": "b-grid-1",
+                    "columns": [
+                        {
+                            "width": "12",
+                            "alignment": "left",
+                            "components": [
+                                {
+                                    "name": "c-richtext-1",
+                                    "content": "<h2>Products</h2>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "slug": "services",
+            "title": "Services",
+            "blocks": [
+                {
+                    "name": "b-grid-1",
+                    "columns": [
+                        {
+                            "width": "12",
+                            "alignment": "left",
+                            "components": [
+                                {
+                                    "name": "c-richtext-1",
+                                    "content": "<h2>Services</h2>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+
+    "posts": [
+        {
+            "id": 1,
+            "user_id": 1,
+            "slug": "sunt-aut-facere-repellat",
+            "title": "Sunt aut facere repellat",
+            "image": {
+                "url": "https://images.unsplash.com/photo-1508615070457-7baeba4003ab?auto=format&w=1280&q=80",
+                "alt": "",
+                "caption": ""
+            },
+            "excerpt": "Quia et suscipit suscipit recusandae consequuntur expedita et quas",
+            "body": "<h3>Omnis dicta quia quae officia reiciendis voluptatem exercitationem non.</h3>\n<hr>\n<p>Laudantium est <a title=\"Et voluptatibus sunt.\" href=\"http://google.com/\">Excepturi necessitatibus maxime non illo eum</a> In quod inventore possimus dolor placeat laudantium.</p>",
+            "link": {
+                "label": "Read Post",
+                "url": "/blog/sunt-aut-facere-repellat",
+                "target": ""
+            }
+        },
+        {
+            "id": 2,
+            "user_id": 1,
+            "slug": "qui-est-esse",
+            "title": "Qui est esse",
+            "image": {
+                "url": "https://images.unsplash.com/photo-1508615070457-7baeba4003ab?auto=format&w=1280&q=80",
+                "alt": "",
+                "caption": ""
+            },
+            "excerpt": "Quia et suscipit suscipit recusandae consequuntur expedita et quas",
+            "body": "<h3>Omnis dicta quia quae officia reiciendis voluptatem exercitationem non.</h3>\n<hr>\n<p>Laudantium est <a title=\"Et voluptatibus sunt.\" href=\"http://google.com/\">Excepturi necessitatibus maxime non illo eum</a> In quod inventore possimus dolor placeat laudantium.</p>",
+            "link": {
+                "label": "Read Post",
+                "url": "/blog/qui-est-esse",
+                "target": ""
+            }
+        },
+        {
+            "id": 3,
+            "user_id": 1,
+            "slug": "molestias-repellat-qui-ipsa-sit-aut",
+            "title": "Molestias repellat qui ipsa sit aut",
+            "image": {
+                "url": "https://images.unsplash.com/photo-1508615070457-7baeba4003ab?auto=format&w=1280&q=80",
+                "alt": "",
+                "caption": ""
+            },
+            "excerpt": "Quia et suscipit suscipit recusandae consequuntur expedita et quas",
+            "body": "<h3>Omnis dicta quia quae officia reiciendis voluptatem exercitationem non.</h3>\n<hr>\n<p>Laudantium est <a title=\"Et voluptatibus sunt.\" href=\"http://google.com/\">Excepturi necessitatibus maxime non illo eum</a> In quod inventore possimus dolor placeat laudantium.</p>",
+            "link": {
+                "label": "Read Post",
+                "url": "/blog/molestias-repellat-qui-ipsa-sit-aut",
+                "target": ""
+            }
+        },
+        {
+            "id": 4,
+            "user_id": 1,
+            "slug": "eum-et-est-occaecati",
+            "title": "Eum et est occaecati",
+            "image": {
+                "url": "https://images.unsplash.com/photo-1508615070457-7baeba4003ab?auto=format&w=1280&q=80",
+                "alt": "",
+                "caption": ""
+            },
+            "excerpt": "Quia et suscipit suscipit recusandae consequuntur expedita et quas",
+            "body": "<h3>Omnis dicta quia quae officia reiciendis voluptatem exercitationem non.</h3>\n<hr>\n<p>Laudantium est <a title=\"Et voluptatibus sunt.\" href=\"http://google.com/\">Excepturi necessitatibus maxime non illo eum</a> In quod inventore possimus dolor placeat laudantium.</p>",
+            "link": {
+                "label": "Read Post",
+                "url": "/blog/eum-et-est-occaecati",
+                "target": ""
+            }
+        }
+    ]
+}
